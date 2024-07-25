@@ -15,7 +15,7 @@ public class MsgRestController {
 
 		logger.info("getMsg() - execution stated..");
 
-		String msg = "Welcome to Ashok IT..!!";
+		String msg = "Welcome to Java..!!";
 
 		try {
 			int i = 10 / 0;
