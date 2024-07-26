@@ -1,6 +1,7 @@
 <configuration>
 	<appender name="Console"
 		class="ch.qos.logback.core.ConsoleAppender">
+		<file>MyLogs</file>
 		<encoder>
 			<pattern>%d [%thread] %-5level %-50logger{40} - %msg%n</pattern>
 		</encoder>
@@ -20,7 +21,7 @@
 		</rollingPolicy>
 	</appender>
 	<root level="INFO">
-		<appender-ref ref="Console" />
+		<!-- <appender-ref ref="Console" /> -->
 		<appender-ref ref="RollingFile" />
 	</root>
 </configuration>
