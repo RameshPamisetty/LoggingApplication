@@ -16,7 +16,7 @@ public class MsgService {
 
 		logger.info("getWelcomeMsg() - (info) started...");
 
-		String msg = "Welcome to Ashok IT";
+		String msg = "Welcome to Java";
 
 		logger.info("getWelcomeMsg() -  (info) ended....");
 
